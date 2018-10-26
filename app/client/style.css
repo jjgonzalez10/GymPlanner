@@ -1,16 +1,10 @@
 
 
-
 #main{
-  padding: 0;
-  display: block;
-  margin: 0 auto;
-  width:1920px;
-  height: 1080px;
-  position:relative;
+  position: absolute;
 
   }
 
 .nav-bar{
-  background: none;
+  background: white;
 }
