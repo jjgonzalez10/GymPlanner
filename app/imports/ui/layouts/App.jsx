@@ -21,10 +21,9 @@ class App extends React.Component {
     return (
         <Router>
           <div>
-        <div>
-        <NavBar/>
-        </div>
+            <NavBar/>
             <Switch>
+              <Route exact path="/" component={Landing}/>
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
               <ProtectedRoute path="/list" component={ListStuff}/>
